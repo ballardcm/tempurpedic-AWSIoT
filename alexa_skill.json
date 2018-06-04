@@ -1,0 +1,74 @@
+{
+    "interactionModel": {
+        "languageModel": {
+            "invocationName": "bed position",
+            "intents": [
+                {
+                    "name": "AMAZON.FallbackIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.CancelIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.HelpIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.StopIntent",
+                    "samples": []
+                },
+                {
+                    "name": "Position",
+                    "slots": [
+                        {
+                            "name": "bed_pos",
+                            "type": "PositionType"
+                        }
+                    ],
+                    "samples": [
+                        "{bed_pos}"
+                    ]
+                }
+            ],
+            "types": [
+                {
+                    "name": "PositionType",
+                    "values": [
+                        {
+                            "name": {
+                                "value": "4"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "3"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "2"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "1"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "0"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "flat"
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}
